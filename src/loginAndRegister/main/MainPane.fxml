@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #99CCFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginAndRegister.main.Controller">
+   <children>
+      <Pane layoutY="277.0" prefHeight="101.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="登陆" layoutX="123.0" layoutY="55.0" mnemonicParsing="false" onAction="#loginFiction" text="登陆" textAlignment="CENTER">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#da1818" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <opaqueInsets>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </opaqueInsets>
+            </Button>
+            <Button layoutX="403.0" layoutY="55.0" mnemonicParsing="false" onAction="#registerFiction" text="注册" textAlignment="CENTER">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </opaqueInsets>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#da1818" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Separator layoutX="3.0" layoutY="32.0" prefHeight="3.0" prefWidth="594.0">
+               <effect>
+                  <BoxBlur />
+               </effect>
+            </Separator>
+         </children>
+      </Pane>
+      <ImageView fitHeight="252.0" fitWidth="279.0" layoutX="174.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@happy.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

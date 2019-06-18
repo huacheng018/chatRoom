@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #99CCFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.ServerManagement">
+   <children>
+      <ImageView fitHeight="288.0" fitWidth="174.0" layoutX="412.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@happy.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="8.0" layoutY="4.0" prefHeight="20.0" prefWidth="181.0" text="瞎吉尔吹聊天室--当前在线" />
+      <TextArea fx:id="loginPeople" layoutX="14.0" layoutY="24.0" prefHeight="368.0" prefWidth="368.0" />
+   </children>
+</AnchorPane>

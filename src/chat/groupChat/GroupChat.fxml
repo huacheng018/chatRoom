@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.groupChat.Controller">
+   <children>
+      <Button fx:id="buttonSend" layoutX="528.0" layoutY="394.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="39.0" prefWidth="70.0" text="发送" textFill="#0477db">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="411.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="表情">
+              <items>
+                <MenuItem mnemonicParsing="false" text="待开发" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="图片">
+              <items>
+                <MenuItem mnemonicParsing="false" text="待开发" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="文件">
+            <items>
+              <MenuItem mnemonicParsing="false" text="待开发" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="编辑">
+            <items>
+              <MenuItem mnemonicParsing="false" text="拉闸！" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="私聊好友">
+              <items>
+                <MenuItem mnemonicParsing="false" text="敬请期待" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="自己想办法" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextArea fx:id="sendText" layoutX="3.0" layoutY="340.0" prefHeight="107.0" prefWidth="492.0" promptText="在此开始您的吹逼生涯" AnchorPane.leftAnchor="8.0" />
+      <TextArea fx:id="receivText" layoutX="6.0" layoutY="38.0" prefHeight="291.0" prefWidth="492.0" />
+    <AnchorPane layoutX="265.0" layoutY="14.0" minHeight="0.0" minWidth="0.0" prefHeight="387.0" prefWidth="109.0" />
+      <Button fx:id="buttonClean" layoutX="528.0" layoutY="346.0" mnemonicParsing="false" onAction="#cleanTextArea" prefHeight="39.0" prefWidth="70.0" text="清空" textFill="#d90455">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="loginPeople2" layoutX="516.0" layoutY="39.0" prefHeight="291.0" prefWidth="95.0" />
+      <Label alignment="CENTER" layoutX="517.0" layoutY="2.0" prefHeight="32.0" prefWidth="95.0" text="当前在线" />
+      <Button fx:id="exitAccount" layoutX="429.0" layoutY="3.0" mnemonicParsing="false" onAction="#exitAccount" text="关闭" textAlignment="CENTER" textFill="#89cd8c" />
+   </children>
+</AnchorPane>

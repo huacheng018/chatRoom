@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.groupChat.GroupChat">
+   <children>
+      <Button layoutX="546.0" layoutY="400.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="发送" textFill="#0477db">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <MenuBar layoutY="-2.0" prefHeight="32.0" prefWidth="629.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="表情">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="图片">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="文件">
+            <items>
+              <MenuItem mnemonicParsing="false" text="打开" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="编辑">
+            <items>
+              <MenuItem mnemonicParsing="false" text="哼！拉闸！" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="自己想办法" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextArea layoutX="6.0" layoutY="340.0" prefHeight="107.0" prefWidth="527.0" promptText="在此开始您的快乐吹逼" />
+      <TextArea layoutX="6.0" layoutY="38.0" prefHeight="291.0" prefWidth="618.0" />
+      <Button layoutX="546.0" layoutY="340.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="清空" textFill="#d90426">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
